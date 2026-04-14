@@ -1,0 +1,5 @@
+# Optional machine-specific overrides.
+# Copy this file to local.conf and customize.
+
+# Example:
+# set -g status-position top
