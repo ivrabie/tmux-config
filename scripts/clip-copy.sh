@@ -7,4 +7,6 @@ elif command -v xclip >/dev/null 2>&1; then
   xclip -selection clipboard -in
 elif command -v pbcopy >/dev/null 2>&1; then
   pbcopy
+else
+  tmux load-buffer -
 fi
